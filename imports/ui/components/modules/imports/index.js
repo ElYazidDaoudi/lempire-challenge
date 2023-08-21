@@ -1,2 +1,1 @@
-import "./importItem";
-import "./importList";
+import "./importList/importList";
