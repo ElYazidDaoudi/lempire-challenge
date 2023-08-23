@@ -1,0 +1,8 @@
+.flex-container {
+  display: flex;
+}
+
+.item {
+  flex: 1;
+  padding: 5px;
+}
