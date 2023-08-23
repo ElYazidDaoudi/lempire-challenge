@@ -57,6 +57,9 @@
       "meteor/reactive-dict": [
         "/Users/zit/.meteor/packages/reactive-dict/1.3.1/web.browser/migration.js",
         "/Users/zit/.meteor/packages/reactive-dict/1.3.1/web.browser/reactive-dict.js"
+      ],
+      "meteor/session": [
+        "/Users/zit/.meteor/packages/session/1.2.1/web.browser/session.js"
       ]
     }
   },

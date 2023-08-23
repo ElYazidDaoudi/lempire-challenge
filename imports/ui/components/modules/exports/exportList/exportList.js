@@ -25,3 +25,9 @@ Template.ExportList.helpers({
     return instance.state.get(IS_LOADING);
   },
 });
+
+Template.ExportList.events({
+  "click .button"() {
+    Meteor.call("export.start");
+  },
+});

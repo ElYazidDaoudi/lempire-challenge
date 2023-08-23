@@ -1,6 +1,8 @@
 <template name="ExportItem">
   <div class="flex-container">
-    <div class="item">{{item.startedAt}}</div>
-    <span class="item">{{> Progress progress=60}}</span>
+    <div class="item">{{{formatItem}}}</div>
+    {{#if itemIsLoading}}
+    <span class="item">{{> Progress progress=inc}}</span>
+    {{/if}}
   </div>
 </template>
