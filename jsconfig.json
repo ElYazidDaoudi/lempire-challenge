@@ -53,6 +53,10 @@
       "meteor/blaze-hot": [
         "/Users/zit/.meteor/packages/blaze-hot/1.1.1/web.browser/hot.js",
         "/Users/zit/.meteor/packages/blaze-hot/1.1.1/web.browser/update-templates.js"
+      ],
+      "meteor/reactive-dict": [
+        "/Users/zit/.meteor/packages/reactive-dict/1.3.1/web.browser/migration.js",
+        "/Users/zit/.meteor/packages/reactive-dict/1.3.1/web.browser/reactive-dict.js"
       ]
     }
   },

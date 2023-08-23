@@ -1,0 +1,10 @@
+<template name="ExportList">
+  {{#if isLoading}}
+  <div class="loading">loading...</div>
+  {{/if}}
+  <ul class="list">
+    {{#each item in exports}}
+    <li>{{> ExportItem item=item}}</li>
+    {{/each}}
+  </ul>
+</template>
