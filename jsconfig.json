@@ -60,6 +60,14 @@
       ],
       "meteor/session": [
         "/Users/zit/.meteor/packages/session/1.2.1/web.browser/session.js"
+      ],
+      "meteor/meteortesting:mocha": [
+        "/Users/zit/.meteor/packages/meteortesting_mocha/2.1.0/web.browser/client.js",
+        "/Users/zit/.meteor/packages/meteortesting_mocha/2.1.0/web.browser/browser-shim.js",
+        "/Users/zit/.meteor/packages/meteortesting_mocha/2.1.0/web.browser/prepForHTMLReporter.js",
+        "/Users/zit/.meteor/packages/meteortesting_mocha/2.1.0/web.browser/runtimeArgs.js",
+        "/Users/zit/.meteor/packages/meteortesting_mocha/2.1.0/web.browser/server.handleCoverage.js",
+        "/Users/zit/.meteor/packages/meteortesting_mocha/2.1.0/web.browser/server.js"
       ]
     }
   },

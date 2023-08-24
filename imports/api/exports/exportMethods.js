@@ -4,7 +4,7 @@ import { getRandomLink } from "./utils/getRandomLink";
 
 Meteor.methods({
   "export.start"() {
-    this.unblock();
+    //this.unblock();
 
     // Save the export in the DB
     const newExport = ExportsCollection.insert({
