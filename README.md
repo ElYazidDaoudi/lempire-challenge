@@ -27,5 +27,5 @@ En utilisant Meteor.js avec Blaze comme framework front, réalise une liste d
 - The startup folder impor all necessary dependencies and it is split into 2 section : `server` and `client`
 - The back expose 1 method to start the export and 1 publication for the export collection
 - The client is splitted into 2 components + 2 basic components (button + progress bar) :
-  - `list of items` (contain the item template + button)
-  - `item` (contain the progress bar)
+  - `exportList` (contain the item template + button)
+  - `exportItem` (contain the progress bar)

@@ -1,6 +1,7 @@
 import { Meteor } from "meteor/meteor";
 import { assert } from "chai";
 import { ExportsCollection } from "/imports/db/exports";
+import "/imports/api/exports/exportMethods";
 import { mockMethodCall } from "meteor/quave:testing";
 import { EXPORT_STATUS } from "./constants";
 
